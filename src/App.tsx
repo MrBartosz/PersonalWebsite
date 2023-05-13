@@ -8,9 +8,8 @@ import { Contact } from './components/Contact';
 function App() {
   return (
     <>
-      <Navbar/>
-
       <Router>
+        <Navbar/>
         <Routes>
           <Route path='/*' element={<Main />} />
           <Route path='/About' element={<About />} />

@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { BrowserRouter as Router, Link } from "react-router-dom";
+import { Router, Link } from "react-router-dom";
 import './css/Navigation.css';
 
 
@@ -31,13 +31,17 @@ export const Navbar = () => {
                 {!phone && 
                 <>
                     <div className="nav_container">
-                        <a className='nav_bartek' href="/*" style={{fontFamily:'tesla', fontSize:30, color:'white', textDecoration:'none'}}>
+                        <Link className='nav_bartek' to="/" style={{ fontFamily: 'tesla', fontSize: 30, color: 'white', textDecoration: 'none' }}>
                             BARTEK
-                        </a>
+                        </Link>
                         <div className="nav_listWrapper">
                             <ul>
-                                <li><a href="/About">About</a></li>
-                                <li><a href="/Contact">Contact</a></li>
+                                <li>
+                                    <Link to="/About">About</Link>
+                                </li>
+                                <li>
+                                    <Link to="/Contact">Contact</Link>
+                                </li>
                             </ul>
                         </div>
                     </div>
@@ -50,9 +54,9 @@ export const Navbar = () => {
                 {phone &&
                 <>
                     <div className="nav_container">
-                        <a className='nav_bartek' href="/*" style={{fontFamily:'tesla', fontSize:30, color:'white', textDecoration:'none'}}>
+                        <Link className='nav_bartek' to="/" style={{ fontFamily: 'tesla', fontSize: 30, color: 'white', textDecoration: 'none' }}>
                             BARTEK
-                        </a>
+                        </Link>
                         <div className={`nav_menuButton ${isMenuOpen ? 'change' : ''}`} onClick={toggleMenu}>
                                 <div className="bar1"></div>
                                 <div className="bar2"></div>
@@ -64,8 +68,12 @@ export const Navbar = () => {
                     <div className={`nav_menuDiv ${isMenuOpen ? 'slideIn' : ''}`}>
                         <div className='nav_menuWrapper'>
                                 <ul>
-                                    <li><a href="/About">About</a></li>
-                                    <li><a href="/Contact">Contact</a></li>
+                                    <li>
+                                        <Link to="/About">About</Link>
+                                    </li>
+                                    <li>
+                                        <Link to="/Contact">Contact</Link>
+                                    </li>
                                 </ul>
                         </div>
                         <div className='nav_logosPhone'>
