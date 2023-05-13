@@ -31,7 +31,7 @@ export const Navbar = () => {
                 {!phone && 
                 <>
                     <div className="nav_container">
-                        <a className='nav_bartek' href="/Main" style={{fontFamily:'tesla', fontSize:30, color:'white', textDecoration:'none'}}>
+                        <a className='nav_bartek' href="/*" style={{fontFamily:'tesla', fontSize:30, color:'white', textDecoration:'none'}}>
                             BARTEK
                         </a>
                         <div className="nav_listWrapper">
@@ -50,7 +50,7 @@ export const Navbar = () => {
                 {phone &&
                 <>
                     <div className="nav_container">
-                        <a className='nav_bartek' href="/Main" style={{fontFamily:'tesla', fontSize:30, color:'white', textDecoration:'none'}}>
+                        <a className='nav_bartek' href="/*" style={{fontFamily:'tesla', fontSize:30, color:'white', textDecoration:'none'}}>
                             BARTEK
                         </a>
                         <div className={`nav_menuButton ${isMenuOpen ? 'change' : ''}`} onClick={toggleMenu}>
