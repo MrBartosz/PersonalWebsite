@@ -1,0 +1,43 @@
+.main_intro {
+    padding: 15% 0 0 15%;
+    color: #a770ff;
+    font-size: 700;
+    z-index: 10;
+}
+
+.main_intro p,
+.main_intro h1 {
+    margin: 3px 0px;
+}
+
+.main_bg {
+    width: 100vw;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    opacity: 0.4;
+    z-index: -1;
+}
+
+.main_button {
+    margin-top: 1rem;
+    padding: 8px 32px;
+    border-radius: 1rem;
+    border: none;
+    background-image: linear-gradient(to right, #461574, #808080);
+    color: white;
+    font-size: 14px;
+}
+
+.main_button:hover {
+    background-image: linear-gradient(to right, #230a3b, #414040);
+}
+
+.main_button:active {
+    font-size: 15px;
+    background-image: linear-gradient(to right, #230a3b, #414040);
+    color:#a770ff
+}
