@@ -1,6 +1,6 @@
 import Typewriter from "typewriter-effect";
 import './css/Main.css';
-import { wrap } from "module";
+import { Link } from "react-router-dom";
 
 export const Main = () => {
 		
@@ -30,9 +30,9 @@ export const Main = () => {
 				/>
 				</h2>
 				<p style={{fontSize:16, color:'gray'}}>Learn more about me and my background here.</p>
-				<a href="/About">
+				<Link to="/About">
 					<button className="main_button">About me</button>
-				</a>
+				</Link>
 			</div>
 			<div style={{width:200, marginTop: "auto" ,marginLeft: 'auto', marginRight: 'auto' }}>
 					
