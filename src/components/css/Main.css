@@ -1,5 +1,5 @@
 .main_intro {
-    padding: 15% 0 50px 15%;
+    padding: 8% 0 5rem 15%;
     color: #a770ff;
     font-size: 700;
     z-index: 10;
@@ -40,4 +40,9 @@
     font-size: 15px;
     background-image: linear-gradient(to right, #230a3b, #414040);
     color:#a770ff
+}
+
+
+.swiper-wrapper{
+    padding-bottom: 30px;
 }
