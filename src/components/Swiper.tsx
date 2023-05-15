@@ -50,6 +50,7 @@ interface CardSwiperProps {
             zIndex: "50",
             fontSize: "1.125rem",
             marginLeft: "0.75rem",
+            marginTop: '0.5rem'
           }}
         >
         <a href={hrefDemo} target="_blank" rel="noreferrer" style={{ textDecoration: "none", color: "white" }}>Demo</a>
@@ -66,6 +67,7 @@ interface CardSwiperProps {
             zIndex: "50",
             fontSize: "1.125rem",
             marginLeft: "0.75rem",
+            marginTop: '0.5rem'
           }}
         >
           <a href={hrefCode} target="_blank" rel="noreferrer" style={{ textDecoration: "none", color: "white" }}>Code</a>

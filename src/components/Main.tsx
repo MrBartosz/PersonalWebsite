@@ -13,7 +13,7 @@ export const Main = () => {
     return (
         <>
         <img className="main_bg" src="https://i.ibb.co/Fqs0Yhn/bg.jpg" alt="bg"/>
-        <div style={{display:'inline'}}>
+        <div style={{display:'flex', flexWrap:'wrap'}}>
 			<div className='main_intro' >
 				<p style={{ display: 'inline', marginRight: '10px', fontSize:20 }}>Hello, i'm</p>
 				<h1 style={{ display: 'inline', color: 'white', fontWeight: 'inherit', fontSize: 36 }}>Bartosz</h1>
@@ -40,7 +40,16 @@ export const Main = () => {
 					<button className="main_button">About me</button>
 				</Link>
 			</div>
+			<div style={{ margin: '50px auto 0 auto', padding:'0 2.5rem'}}>
+				<div>
+					<div className="quote">
+						<img src="https://i.ibb.co/ysdMrMG/icons8-quote-left-50.png" alt="quote1" width={20}/> I want to put a ding in the universe. <img src="https://i.ibb.co/SQcX6tP/icons8-quote-50-2.png" alt="quote2" width={20} />  <h4 style={{marginTop:'10px'}}>-Steve Jobs</h4> 
+					</div>
+						<img style={{width:'200px', margin:'-30px 0 0 25px'}} src="https://i.ibb.co/FnpKbCx/Figure-of-the-smiling-standing-Steve-Jobs-with-the-glasses-at-white-background-clipart.png" alt="avatar" />
+				</div>
+			</div>
 		</div>
+		<p className="selected-project" style={{textAlign:'center', fontSize:'20px', color: "white", fontWeight:'bold'}}>Selected projects</p>
 			<div style={{paddingTop:'2rem'}}>
 				<Swiper
 					freeMode={true}

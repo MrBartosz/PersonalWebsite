@@ -6,6 +6,7 @@
 ::-webkit-scrollbar-thumb {
   background-image: linear-gradient(rgb(80, 8, 38), rgb(43, 11, 31));
   border-radius: 25px;
+  
 }
 
 ::-webkit-scrollbar-thumb:hover {
@@ -15,4 +16,5 @@
 body {
   background-color: #121a26;
   font-family: monospace;
+  overflow-x: hidden;
 }
