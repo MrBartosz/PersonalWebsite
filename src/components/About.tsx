@@ -17,7 +17,7 @@ export const About = () => {
                         <p className="owner-name" style={{marginRight:'1rem'}}>Bartosz</p>
                         <p className="owner-name">Maksimowski</p>
                     </div>
-                    <img src="https://i.ibb.co/PcVVNjp/fotor-ai-2023051520355.jpg" alt="owner avatar" width={250} className="owner-avatar" />
+                    <img src="https://i.ibb.co/7YFQtKs/fotor-ai-20230515221624.jpg" alt="owner avatar" width={250} className="owner-avatar" />
                     <button className='owner-story-button' onClick={toggleStory}>{showStory ? 'Hide' : "My Story in a Nutshell"}</button>
                     {showStory &&
                     <p className="owner-description">
@@ -30,7 +30,7 @@ export const About = () => {
                     }
                 </div>
                 <div>
-                    Witam
+                    
                 </div>
 
             </div>
