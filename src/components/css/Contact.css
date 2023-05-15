@@ -1,0 +1,131 @@
+.contact-header {
+    text-align: center;
+    font-size: 24px;
+    margin: 3rem 0 2rem 0;
+    color: white;
+}
+
+.contact-header h1 {
+    letter-spacing: 2px;
+}
+
+.contact-info {
+    display: flex;
+    color: white;
+    background: rgba(44, 43, 43, 0.575);
+    padding: 1rem;
+    margin: 1rem;
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+}
+
+.contact-icon {
+    padding: 0.5rem;
+    background: rgba(100, 97, 97, 0.575);
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.contact-info a {
+    display: flex;
+    align-items: center;
+    font-size: 1.2rem;
+}
+
+.contact_form {
+    width: 100%;
+    margin-bottom: 2rem;
+    padding: 0 2rem;
+
+}
+.contact_inLabel {
+    margin-left: 1rem;
+}
+
+.contact_formContainer {
+    width: 100%;
+    max-width: 500px;
+}
+
+.contact_formContainer input,
+.contact_formContainer textarea {
+    width: 100%;
+    font-size: 1rem;
+    padding: 1.2rem;
+    background-color: rgba(44, 43, 43, 0.575);
+    border: none;
+    outline: none;
+    margin-top: 1rem;
+    border-radius: 8px;
+    color: whitesmoke;
+
+}
+.contact_formContainer textarea {
+    min-height: 200px;
+    resize: vertical;
+}
+
+.contact_formContainer button {
+    background-color: rgb(184, 179, 179);
+    color: rgba(44, 43, 43, 0.575);
+    font-size: 1.2rem; 
+    outline: none;
+    border: none;
+    padding: 0.7rem 1.5rem;
+    border-radius: 8px;
+    cursor: pointer;
+    margin: 0.5rem 0 0 1rem ;
+}
+
+.contact_formContainer button:active {
+    background-color: rgb(146, 142, 142);
+    color: rgba(44, 43, 43, 0.575);
+}
+.contact_formContainer button:hover {
+    transform: scale(1.1);
+}
+
+.contact_container {
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 4rem;
+    justify-content: center;
+  }
+
+.contact_container::after {
+    position: absolute;
+    content: '';
+    margin-top: 2rem;
+    width: 2px;
+    height: 50%;
+    max-height: 450px;
+    left: 50%;
+    background-color: rgb(207, 204, 204);
+    animation: fadeIn 1s ease-in-out;
+
+}
+
+@media only screen and (max-width: 1000px) {
+    .contact_container::after {
+        display: none;
+    }
+}
+
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
+  .contact_fadeIn {
+    animation: fadeIn 1s ease-in-out;
+    text-decoration: none;
+    color: white;
+  }

@@ -80,7 +80,7 @@ export const Navbar = () => {
                             <a href="https://github.com/MrBartosz" target='_blank'> <img src='https://i.ibb.co/yVpRtpw/icons8-github-64.png' width="52" height="52" alt="GitHub" /></a>
                             <a href="https://drive.google.com/file/d/1g0MiZVOCwV2La_YDldeCpB7rAWhcd_jg/view" target='_blank'><img src="https://i.ibb.co/cyZnWTm/icons8-cv-64-4.png" width="48" height="45" alt="CV" /></a>
                         </div>
-                        <p className='nav_copyright'>Copyright © </p>
+                        <p style={{position:'fixed', bottom:'10px', width:'100%', textAlign:'center'}}>Copyright © </p>
                     </div>
                     }
                 </>
