@@ -49,7 +49,7 @@ export const Main = () => {
 				</div>
 			</div>
 		</div>
-		<p className="selected-project" style={{textAlign:'center', fontSize:'20px', color: "white", fontWeight:'bold'}}>Selected projects</p>
+		<p className="selected-project" style={{textAlign:'center', fontSize:'20px', color: "white", fontWeight:'bold'}}>My Selected Projects</p>
 			<div style={{paddingTop:'2rem'}}>
 				<Swiper
 					freeMode={true}

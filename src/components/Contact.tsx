@@ -13,8 +13,7 @@ export const Contact = () => {
 
     
     const showEr = () => {
-        setShowMessageContent('Błąd - wypełnij wszystkie pola!')
-        setShowMessage(true)
+        alert('Wypełnij wszystkie pola!')
     }
 
     useEffect(() => {
@@ -80,7 +79,7 @@ export const Contact = () => {
                         <div className='contact_form'>
                             <label htmlFor="name">
                                 <span className='contact_fadeIn'>Your Name</span>
-                                <input className='contact_inLabel'
+                                <input 
                                 type="text"
                                 name="user_name"
                                 onChange={(e) => setName(e.target.value)}
@@ -90,7 +89,7 @@ export const Contact = () => {
                         <div className='contact_form'>
                             <label htmlFor="email">
                                 <span className='contact_fadeIn'>Your Email</span>
-                                <input className='contact_inLabel'
+                                <input 
                                 type="email"
                                 name="user_email"
                                 onChange={(e) => setEmail(e.target.value)}
@@ -100,7 +99,7 @@ export const Contact = () => {
                         <div className='contact_form'>
                             <label htmlFor="message">
                                 <span className='contact_fadeIn'>Your Message</span> 
-                                <textarea className='contact_inLabel'
+                                <textarea 
                                 name="message"
                                 onChange={(e) => setText(e.target.value)}
                                 />
