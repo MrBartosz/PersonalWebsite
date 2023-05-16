@@ -16,7 +16,7 @@ export const Contact = () => {
 
     
     const showEr = () => {
-        alert('Wypełnij wszystkie pola!')
+        alert('Fill in all fields!')
     }
 
     useEffect(() => {
@@ -39,11 +39,11 @@ export const Contact = () => {
             )
             .then(
               () => {
-                  setShowMessageContent('Wiadomośc wysłana')
+                  setShowMessageContent('Message sent')
                   setShowMessage(true)
               },
               (error) => {
-                  setShowMessageContent(`Błąd wysyłania - ${error.text}`)
+                  setShowMessageContent(`Sending error - ${error.text}`)
                   setShowMessage(true)
                 }
                 );

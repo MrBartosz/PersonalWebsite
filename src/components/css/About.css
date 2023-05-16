@@ -83,3 +83,81 @@
   .owner-story-button:active {
     transform: translateY(2px);
   }
+
+  .skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  
+  
+  @keyframes shadow-in {
+    0% {
+      box-shadow: none;
+    }
+    100% {
+      box-shadow: 0 2px 8px rgba(226, 221, 221, 1);
+    }
+  }
+  
+  @keyframes fade-in-p1 {
+    0% {
+      opacity: 0;
+    }
+
+    100% {
+      opacity: 1;
+    }
+  }
+  @keyframes fade-in-p2 {
+    0% {
+      opacity: 0;
+    }
+
+    50% {
+      opacity: 0;
+    }
+
+    100% {
+      opacity: 1;
+    }
+  }
+  @keyframes fade-in-p3 {
+    0% {
+      opacity: 0;
+    }
+    66% {
+      opacity: 0;
+    }
+
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  .skills-div {
+    padding: 1rem 7rem;
+    margin: 1rem;
+    box-shadow: 0 2px 8px rgba(226, 221, 221, 1);
+    background-color: rgba(145, 141, 141, 0.144);
+    text-align: center;
+    animation: fade-in-p1 0.5s ease-out, shadow-in 2s ease-out;
+  }
+  
+  .skills-div p {
+    margin-top: 1rem;
+    font-size: 1rem;
+    animation: fade-in-p3 1.5s ease-out;
+  }
+  
+  .skills-div img {
+    animation: fade-in-p2 1s ease-out;
+  }
+
+  .skills-div:hover {
+    transform: scale(1.1);
+    box-shadow: 0 2px 16px rgb(255, 255, 255);
+  }
+  
