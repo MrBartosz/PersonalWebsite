@@ -34,6 +34,7 @@
   .owner-name-container {
     display: flex;
     justify-content: center;
+    align-items: center;
     flex-wrap: wrap;
 }
 
@@ -43,8 +44,9 @@
   }
   
   .owner-description {
+    margin: 0 -2rem 0 -2rem;
     max-width: 1000px;
-    font-size: 15px;
+    font-size: 18px;
   }
   
   .owner-avatar {

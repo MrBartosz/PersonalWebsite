@@ -1,8 +1,9 @@
 import { useState, useEffect } from 'react';
 import { Router, Link } from "react-router-dom";
 import './css/Navigation.css';
-
-
+import bartekLogo from './resources/BartekLogo.png';
+import githubIcon from './resources/GithubIcon.png';
+import cvIcon from './resources/CvIcon.png';
 export const Navbar = () => {
 
     const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -37,7 +38,7 @@ export const Navbar = () => {
                 <>
                     <div className="nav_container">
                         <Link className='nav_bartek' to="/" style={{ fontFamily: 'tesla', fontSize: 30, color: 'white', textDecoration: 'none' }}>
-                            <img src="https://i.ibb.co/nCwp02n/image-UZIe90g-HY-transformed.png" alt="BARTEK logo" height={40} />
+                            <img src={bartekLogo} alt="BARTEK" height={40} />
                         </Link>
                         <div className="nav_listWrapper">
                             <ul>
@@ -51,8 +52,8 @@ export const Navbar = () => {
                         </div>
                     </div>
                     <div className='nav_logosPhone'>
-                        <a href="https://github.com/MrBartosz" target='_blank'> <img src='https://i.ibb.co/yVpRtpw/icons8-github-64.png' width="52" height="52" alt="GitHub" /></a>
-                        <a href="https://drive.google.com/file/d/1g0MiZVOCwV2La_YDldeCpB7rAWhcd_jg/view" target='_blank'><img src="https://i.ibb.co/cyZnWTm/icons8-cv-64-4.png" width="48" height="45" alt="CV" /></a>
+                        <a href="https://github.com/MrBartosz" target='_blank'> <img src={githubIcon} width="52" height="52" alt="GitHub" /></a>
+                        <a href="https://drive.google.com/file/d/1g0MiZVOCwV2La_YDldeCpB7rAWhcd_jg/view" target='_blank'><img src={cvIcon} width="48" height="45" alt="CV" /></a>
                     </div>
                 </>
                 }
@@ -60,7 +61,7 @@ export const Navbar = () => {
                 <>
                     <div className="nav_container">
                         <Link className='nav_bartek' to="/" style={{ fontFamily: 'tesla', fontSize: 30, color: 'white', textDecoration: 'none' }}>
-                        <img src="https://i.ibb.co/nCwp02n/image-UZIe90g-HY-transformed.png" alt="BARTEK logo" height={40} />
+                        <img src={bartekLogo} alt="BARTEK logo" height={40} />
                         </Link>
                         <div className={`nav_menuButton ${isMenuOpen ? 'change' : ''}`} onClick={toggleMenu}>
                                 <div className="bar1"></div>
@@ -85,8 +86,8 @@ export const Navbar = () => {
                                 </ul>
                         </div>
                         <div className='nav_logosPhone menu_on'>
-                            <a href="https://github.com/MrBartosz" target='_blank'> <img src='https://i.ibb.co/yVpRtpw/icons8-github-64.png' width="52" height="52" alt="GitHub" /></a>
-                            <a href="https://drive.google.com/file/d/1g0MiZVOCwV2La_YDldeCpB7rAWhcd_jg/view" target='_blank'><img src="https://i.ibb.co/cyZnWTm/icons8-cv-64-4.png" width="48" height="45" alt="CV" /></a>
+                            <a href="https://github.com/MrBartosz" target='_blank'> <img src={githubIcon} width="52" height="52" alt="GitHub" /></a>
+                            <a href="https://drive.google.com/file/d/1g0MiZVOCwV2La_YDldeCpB7rAWhcd_jg/view" target='_blank'><img src={cvIcon} width="48" height="45" alt="CV" /></a>
                         </div>
                         <p style={{position:'fixed', bottom:'10px', width:'100%', textAlign:'center', color:'white'}}>Copyright © </p>
                     </div>

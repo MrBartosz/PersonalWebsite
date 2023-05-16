@@ -1,6 +1,7 @@
 import './css/About.css';
 import React, { useState } from 'react';
-
+import ownerAvatar from './resources/avatar.jpg';
+import skillsIcon from './resources/SkillsIcon.png';
 export const About = () => {
     const [showStory, setShowStory] = useState<boolean>(false)
 
@@ -17,7 +18,7 @@ export const About = () => {
                         <p className="owner-name" style={{marginRight:'1rem'}}>Bartosz</p>
                         <p className="owner-name">Maksimowski</p>
                     </div>
-                    <img src="https://i.ibb.co/7YFQtKs/fotor-ai-20230515221624.jpg" alt="owner avatar" width={250} className="owner-avatar" />
+                    <img src={ownerAvatar} alt="owner avatar" width={250} className="owner-avatar" />
                     <button className='owner-story-button' onClick={toggleStory}>{showStory ? 'Hide' : "My Story in a Nutshell"}</button>
                     {showStory &&
                     <p className="owner-description">
@@ -29,8 +30,14 @@ export const About = () => {
                     </p>
                     }
                 </div>
-                <div>
-                    
+                <div className='owner-container'>
+                    <div className='owner-name-container'>
+                        <h1>My Skills</h1>
+                        <img src={skillsIcon} alt="skills icon" width={40} style={{marginLeft:'1rem'}}/>
+                    </div>
+                    <div>
+
+                    </div>
                 </div>
 
             </div>

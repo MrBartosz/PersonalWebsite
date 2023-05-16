@@ -1,6 +1,9 @@
 import './css/Contact.css';
 import React, { useEffect, useRef, useState } from 'react';
 import emailjs from "@emailjs/browser";
+import phoneIcon from './resources/PhoneIcon.png';
+import emailIcon from './resources/EmailIcon.png';
+import placeIcon from './resources/PlaceIcon.png';
 
 export const Contact = () => {
     const [name, setName] = useState('');
@@ -57,19 +60,19 @@ export const Contact = () => {
                 <div style={{width:'100%', maxWidth:'500px', marginBottom:'4rem', paddingRight:'1rem'}}>
                     <div className="contact-info">
                         <div className="contact-item">
-                            <img src="https://i.ibb.co/fNZMNM5/icons8-phone-64.png" alt="phone icon" width="50px" className="contact-icon" />
+                            <img src={phoneIcon} alt="phone icon" width="50px" className="contact-icon" />
                             <a href="tel://519635097" className='contact_fadeIn'>+48 519 635 097</a>
                         </div>
                     </div>
                     <div className="contact-info">
                         <div className="contact-item">
-                            <img src="https://i.ibb.co/khndJ90/icons8-email-64-1.png" alt="email icon" width="50px" className="contact-icon" />
+                            <img src={emailIcon} alt="email icon" width="50px" className="contact-icon" />
                             <a href="mailto:maksimowski97@gmail.com" className='contact_fadeIn'>maksimowski97@gmail.com</a>
                         </div>
                     </div>
                     <div className="contact-info">
                         <div className="contact-item">
-                            <img src="https://i.ibb.co/V9Gpkft/icons8-place-64.png" alt="place icon" width="50px" className="contact-icon" />
+                            <img src={placeIcon} alt="place icon" width="50px" className="contact-icon" />
                             <a href='https://www.google.com/maps/place/Bia%C5%82ystok/' target='_blank' className='contact_fadeIn'>Białystok, Poland</a>
                         </div>
                     </div>

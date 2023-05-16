@@ -1,3 +1,12 @@
+import SteveJobs from './resources/SteveJobs.png';
+import LeftQuote from './resources/LeftQuote.png';
+import RightQuote from './resources/RightQuote.png';
+import bg from './resources/bg.jpg';
+import project1 from './resources/Project1.jpg'
+import project2 from './resources/Project2.jpg'
+import project3 from './resources/Project3.jpg'
+import project4 from './resources/Project4.jpg'
+import project5 from './resources/Project5.jpg'
 import Typewriter from "typewriter-effect";
 import { Link } from "react-router-dom";
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -8,11 +17,12 @@ import "swiper/css";
 import "swiper/css/free-mode";
 import "swiper/css/pagination";
 
+
 export const Main = () => {
 
     return (
         <>
-        <img className="main_bg" src="https://i.ibb.co/Fqs0Yhn/bg.jpg" alt="bg"/>
+        <img className="main_bg" src={bg} alt="bg"/>
         <div style={{display:'flex', flexWrap:'wrap'}}>
 			<div className='main_intro' >
 				<p style={{ display: 'inline', marginRight: '10px', fontSize:20 }}>Hello, i'm</p>
@@ -43,9 +53,10 @@ export const Main = () => {
 			<div style={{ margin: '50px auto 0 auto', padding:'0 2.5rem'}}>
 				<div>
 					<div className="quote">
-						<img src="https://i.ibb.co/ysdMrMG/icons8-quote-left-50.png" alt="quote1" width={20}/> I want to put a ding in the universe. <img src="https://i.ibb.co/SQcX6tP/icons8-quote-50-2.png" alt="quote2" width={20} />  <h4 style={{marginTop:'10px'}}>-Steve Jobs</h4> 
+						<img src={LeftQuote} alt="quote1" width={20}/> I want to put a ding in the universe. <img src={RightQuote} alt="quote2" width={20} /> 
+						<h4 style={{marginTop:'10px'}}>-Steve Jobs</h4> 
 					</div>
-						<img style={{width:'200px', margin:'-30px 0 0 25px'}} src="https://i.ibb.co/FnpKbCx/Figure-of-the-smiling-standing-Steve-Jobs-with-the-glasses-at-white-background-clipart.png" alt="avatar" />
+						<img style={{width:'200px', margin:'-30px 0 0 25px'}} src={SteveJobs} alt="avatar" />
 				</div>
 			</div>
 		</div>
@@ -83,7 +94,7 @@ export const Main = () => {
 					<SwiperSlide>
 						<CardSwiper
 							name={"Board Game"}
-							image={'https://i.ibb.co/Cvrf0Cs/smartmockups-lhmm4089.jpg'}
+							image={project1}
 							alt={"BoardGame"}
 							hrefDemo={"https://mrbartosz.github.io/ReactTS-BoardGame/"}
 							hrefCode={"https://github.com/MrBartosz/ReactTS-BoardGame"}
@@ -92,7 +103,7 @@ export const Main = () => {
 					<SwiperSlide>
 						<CardSwiper
 							name={"Portfolio Website"}
-							image={'https://i.ibb.co/YQ9SgSD/smartmockups-lhmjq1am.jpg'}
+							image={project2}
 							alt={"Portfolio Website"}
 							hrefDemo={"https://mrbartosz.github.io/PersonalWebsite/"}
 							hrefCode={"https://github.com/MrBartosz/PersonalWebsite"}
@@ -101,7 +112,7 @@ export const Main = () => {
 					<SwiperSlide>
 						<CardSwiper
 						name={"ReactTS App"}
-						image={'https://i.ibb.co/XCJW1yz/smartmockups-lhmjc1w9.jpg'}
+						image={project3}
 						alt={"ReactTypeScript"}
 						hrefDemo="https://mrbartosz.github.io/typescript-react/"
 						hrefCode={"https://github.com/MrBartosz/typescript-react"}
@@ -110,7 +121,7 @@ export const Main = () => {
 					<SwiperSlide>
 						<CardSwiper
 						name={"Ceaser Cipher"}
-						image={'https://i.ibb.co/6vWnV0c/smartmockups-lhmjmf23.jpg'}
+						image={project4}
 						alt={"Ceaser Cipher"}
 						hrefDemo={"https://mrbartosz.github.io/Caesar-Cipher/"}
 						hrefCode={"https://github.com/MrBartosz/Caesar-Cipher"}
@@ -119,7 +130,7 @@ export const Main = () => {
 					<SwiperSlide>
 						<CardSwiper
 							name={"Card Verification"}
-							image={'https://i.ibb.co/0MWgVXm/smartmockups-lhmjkdjw.jpg'}
+							image={project5}
 							alt={"Card Verification"}
 							hrefDemo={"https://mrbartosz.github.io/Card-Verification/"}
 							hrefCode={"https://github.com/MrBartosz/Card-Verification"}
