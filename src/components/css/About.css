@@ -44,9 +44,9 @@
   }
   
   .owner-description {
-    margin: 0 -2rem 0 -2rem;
     max-width: 1000px;
     font-size: 18px;
+    margin: 0.5rem 1.5rem;
   }
   
   .owner-avatar {
