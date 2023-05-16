@@ -78,7 +78,9 @@
 }
 
 .nav_menuButton {
-    float: right;
+    position: fixed;
+    top: 5px;
+    right: 0.5rem;
     padding: 1rem;
     z-index: 1000;
     
