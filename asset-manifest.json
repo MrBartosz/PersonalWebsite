@@ -1,13 +1,21 @@
 {
   "files": {
-    "main.css": "/PersonalWebsite/static/css/main.5dc3a1b9.css",
-    "main.js": "/PersonalWebsite/static/js/main.24f75e65.js",
+    "main.css": "/PersonalWebsite/static/css/main.268e48b8.css",
+    "main.js": "/PersonalWebsite/static/js/main.30f62921.js",
+    "static/media/Project2.jpg": "/PersonalWebsite/static/media/Project2.6e92738eb739467d66b7.jpg",
+    "static/media/Project5.jpg": "/PersonalWebsite/static/media/Project5.b48895c4742bd2fcc493.jpg",
+    "static/media/Project3.jpg": "/PersonalWebsite/static/media/Project3.240bbb35b33b21af35d3.jpg",
+    "static/media/Project4.jpg": "/PersonalWebsite/static/media/Project4.21932e65b335b38e2c9d.jpg",
+    "static/media/Project1.jpg": "/PersonalWebsite/static/media/Project1.7abd0973858cb5276082.jpg",
+    "static/media/SteveJobs.png": "/PersonalWebsite/static/media/SteveJobs.ab63a7d1f0c216d7234e.png",
+    "static/media/avatar.jpg": "/PersonalWebsite/static/media/avatar.4057ea9c4e288ee33fc5.jpg",
+    "static/media/bg.jpg": "/PersonalWebsite/static/media/bg.0d0adf4e871308e15b4f.jpg",
     "index.html": "/PersonalWebsite/index.html",
-    "main.5dc3a1b9.css.map": "/PersonalWebsite/static/css/main.5dc3a1b9.css.map",
-    "main.24f75e65.js.map": "/PersonalWebsite/static/js/main.24f75e65.js.map"
+    "main.268e48b8.css.map": "/PersonalWebsite/static/css/main.268e48b8.css.map",
+    "main.30f62921.js.map": "/PersonalWebsite/static/js/main.30f62921.js.map"
   },
   "entrypoints": [
-    "static/css/main.5dc3a1b9.css",
-    "static/js/main.24f75e65.js"
+    "static/css/main.268e48b8.css",
+    "static/js/main.30f62921.js"
   ]
 }
