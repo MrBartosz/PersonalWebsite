@@ -82,13 +82,3 @@
     animation: colorAnimation 4s linear infinite;
   }
   
-  @keyframes colorAnimation {
-    0% {
-      width: 0;
-      color: transparent;
-    }
-    100% {
-      width: 100%;
-      color: #a770ff;
-    }
-  }

@@ -53,7 +53,7 @@ export const Navbar = () => {
                     </div>
                     <div className='nav_logosPhone'>
                         <a href="https://github.com/MrBartosz" target='_blank'> <img src={githubIcon} width="52" height="52" alt="GitHub" /></a>
-                        <a href="https://drive.google.com/file/d/1g0MiZVOCwV2La_YDldeCpB7rAWhcd_jg/view" target='_blank'><img src={cvIcon} width="48" height="45" alt="CV" /></a>
+                        <a href="https://drive.google.com/file/d/1dfhZj1-vI00VgeK8V7HTf7QGxhbTd2Yx/view" target='_blank'><img src={cvIcon} width="48" height="45" alt="CV" /></a>
                     </div>
                 </>
                 }
@@ -87,7 +87,7 @@ export const Navbar = () => {
                         </div>
                         <div className='nav_logosPhone menu_on'>
                             <a href="https://github.com/MrBartosz" target='_blank'> <img src={githubIcon} width="52" height="52" alt="GitHub" /></a>
-                            <a href="https://drive.google.com/file/d/1g0MiZVOCwV2La_YDldeCpB7rAWhcd_jg/view" target='_blank'><img src={cvIcon} width="48" height="45" alt="CV" /></a>
+                            <a href="https://drive.google.com/file/d/1dfhZj1-vI00VgeK8V7HTf7QGxhbTd2Yx/view" target='_blank'><img src={cvIcon} width="48" height="45" alt="CV" /></a>
                         </div>
                         <p style={{position:'fixed', bottom:'10px', width:'100%', textAlign:'center', color:'white'}}>Copyright © </p>
                     </div>
