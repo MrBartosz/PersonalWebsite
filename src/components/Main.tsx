@@ -105,7 +105,7 @@ export const Main = () => {
 							name={"Portfolio Website"}
 							image={project2}
 							alt={"Portfolio Website"}
-							hrefDemo={"https://mrbartosz.github.io/PersonalWebsite/"}
+							hrefDemo={''}
 							hrefCode={"https://github.com/MrBartosz/PersonalWebsite"}
 					/>
 					</SwiperSlide>
