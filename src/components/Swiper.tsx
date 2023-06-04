@@ -38,23 +38,44 @@ interface CardSwiperProps {
         >
           {name}
         </h1>
-        <button
-          type="button"
-          style={{
-            border: "2px solid #a770ff",
-            backgroundColor: "transparent",
-            color: "#000000",
-            padding: "0.5rem 1rem",
-            fontWeight: "bold",
-            cursor: "pointer",
-            zIndex: "50",
-            fontSize: "1.125rem",
-            marginLeft: "0.75rem",
-            marginTop: '0.5rem'
-          }}
-        >
-        <a href={hrefDemo} target="_blank" rel="noreferrer" style={{ textDecoration: "none", color: "white" }}>Demo</a>
-        </button>
+        {hrefDemo && (
+          <button
+            type="button"
+            style={{
+              border: "2px solid #a770ff",
+              backgroundColor: "transparent",
+              color: "#000000",
+              padding: "0.5rem 1rem",
+              fontWeight: "bold",
+              cursor: "pointer",
+              zIndex: "50",
+              fontSize: "1.125rem",
+              marginLeft: "0.75rem",
+              marginTop: '0.5rem'
+            }}
+          >
+            <a href={hrefDemo} target="_blank" rel="noreferrer" style={{ textDecoration: "none", color: "white" }}>Demo</a>
+          </button>
+          )}
+          {!hrefDemo && (
+            <button
+              type="button"
+              style={{
+                border: "2px solid #a770ff",
+                backgroundColor: "transparent",
+                color: "#000000",
+                padding: "0.5rem 1rem",
+                fontWeight: "bold",
+                cursor: "pointer",
+                zIndex: "50",
+                fontSize: "1.125rem",
+                marginLeft: "0.75rem",
+                marginTop: '0.5rem'
+              }}
+            >
+              <span style={{ textDecoration: "none", color: "white" }}>This Site</span>
+            </button>
+          )}
         <button
           type="button"
           style={{
