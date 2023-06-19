@@ -7,6 +7,7 @@ import project2 from './resources/Project2.jpg'
 import project3 from './resources/Project3.jpg'
 import project4 from './resources/Project4.jpg'
 import project5 from './resources/Project5.jpg'
+import project6 from './resources/Project6.png'
 import Typewriter from "typewriter-effect";
 import { Link } from "react-router-dom";
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -107,6 +108,15 @@ export const Main = () => {
 							alt={"Portfolio Website"}
 							hrefDemo={''}
 							hrefCode={"https://github.com/MrBartosz/PersonalWebsite"}
+					/>
+					</SwiperSlide>
+					<SwiperSlide>
+						<CardSwiper
+							name={"Dog Breed App"}
+							image={project6}
+							alt={"Portfolio Website"}
+							hrefDemo={'https://mrbartosz.github.io/DogListApp/'}
+							hrefCode={"https://github.com/MrBartosz/DogListApp"}
 					/>
 					</SwiperSlide>
 					<SwiperSlide>
