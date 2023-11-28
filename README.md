@@ -5,7 +5,7 @@ This is my portfolio website!
 
 **This project is enhanced here:**
 
-📱 [App](https://github.com/MrBartosz/PersonalApp) (In Progress)
+📱 [App](https://github.com/MrBartosz/PersonalApp)
 
 ## Features
 <li>React-router</li>
